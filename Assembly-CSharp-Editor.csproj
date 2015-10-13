@@ -204,6 +204,9 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -218,6 +221,48 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditorResources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.de.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.es-ES.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.fr.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.it.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.ja.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.nl.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.pt-BR.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.sv-SE.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-CN.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-TW.resources">
+ <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>C:/!dg/horror_slasher/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity5/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -251,45 +296,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity5/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditorResources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.fr.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.sv-SE.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.es-ES.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.de.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.pt-BR.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.it.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.ja.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.zh-TW.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.nl.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor.zh-CN.resources">
- <HintPath>C:/!dg/horror_slasher/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>C:/!dg/horror_slasher/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity5/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
