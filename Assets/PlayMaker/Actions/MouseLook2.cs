@@ -26,15 +26,15 @@ namespace HutongGames.PlayMaker.Actions
 
 		[RequiredField]
 		public FsmFloat sensitivityY;
-
-		[RequiredField]
+		
 		[HasFloatSlider(-360,360)]
+		[Tooltip("Clamp rotation around X axis. Set to None for no clamping.")]
 		public FsmFloat minimumX;
-
-		[RequiredField]
+		
 		[HasFloatSlider(-360, 360)]
+		[Tooltip("Clamp rotation around X axis. Set to None for no clamping.")]
 		public FsmFloat maximumX;
-
+		
 		[RequiredField]
 		[HasFloatSlider(-360, 360)]
 		public FsmFloat minimumY;
@@ -55,8 +55,8 @@ namespace HutongGames.PlayMaker.Actions
 			axes = RotationAxes.MouseXAndY;
 			sensitivityX = 15f;
 			sensitivityY = 15f;
-			minimumX = -360f;
-			maximumX = 360f;
+			minimumX = new FsmFloat {UseVariable = true};
+			maximumX = new FsmFloat { UseVariable = true };
 			minimumY = -60f;
 			maximumY = 60f;
 			everyFrame = true;
