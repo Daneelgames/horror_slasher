@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-05-19T22:12:02Z</created>
+    <modified>2011-05-19T22:12:02Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.025400"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__2-image" name="Map__2">
+      <init_from>file://Texture 103.png</init_from>
+    </image>
+    <image id="Map__3-image" name="Map__3">
+      <init_from>file://Texture 103.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_01___Default" name="_01___Default">
+      <instance_effect url="#_01___Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_01___Default-fx" name="_01___Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <texture texture="Map__3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="g_plAcap06_1-lib" name="g_plAcap06_1Mesh">
+      <mesh>
+        <source id="g_plAcap06_1-lib-Position">
+          <float_array id="g_plAcap06_1-lib-Position-array" count="30">
+-0.695566 1.007328 0.903068
+-0.911286 1.149158 -0.475951
+-0.961356 0.874414 -0.599113
+-0.625238 0.584120 0.862984
+0.000000 0.622977 1.046877
+0.000000 0.994885 1.125055
+0.625237 0.584121 0.862984
+0.695566 1.007328 0.903068
+0.961356 0.874414 -0.599113
+0.911286 1.149158 -0.475951
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1-lib-Position-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAcap06_1-lib-Normal0">
+          <float_array id="g_plAcap06_1-lib-Normal0-array" count="72">
+-0.754028 -0.175477 0.632969
+-0.980804 0.105119 0.164238
+-0.984381 0.045080 0.170184
+-0.984381 0.045080 0.170184
+-0.695645 -0.181437 0.695097
+-0.754028 -0.175477 0.632969
+-0.695645 -0.181437 0.695097
+-0.013806 -0.194924 0.980721
+-0.754028 -0.175477 0.632969
+-0.754028 -0.175477 0.632969
+-0.013806 -0.194924 0.980721
+-0.011355 -0.194791 0.980779
+-0.013806 -0.194924 0.980721
+0.703021 -0.193763 0.684264
+-0.011355 -0.194791 0.980779
+-0.011355 -0.194791 0.980779
+0.703021 -0.193763 0.684264
+0.761205 -0.165380 0.627069
+0.703021 -0.193763 0.684264
+0.984381 0.045080 0.170184
+0.761205 -0.165380 0.627069
+0.761205 -0.165380 0.627069
+0.984381 0.045080 0.170184
+0.980804 0.105119 0.164238
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1-lib-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAcap06_1-lib-UV0">
+          <float_array id="g_plAcap06_1-lib-UV0-array" count="12">
+0.470590 0.239216
+0.992160 0.239216
+0.992160 0.007843
+0.474510 0.007843
+0.007840 0.007843
+0.003920 0.239216
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1-lib-UV0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="g_plAcap06_1-lib-Vertex">
+          <input semantic="POSITION" source="#g_plAcap06_1-lib-Position"/>
+        </vertices>
+        <polygons material="_01___Default" count="8">
+          <input semantic="VERTEX" offset="0" source="#g_plAcap06_1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#g_plAcap06_1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#g_plAcap06_1-lib-UV0"/>
+          <p>0 0 0 1 1 1 2 2 2</p>
+          <p>2 3 2 3 4 3 0 5 0</p>
+          <p>3 6 3 4 7 4 0 8 0</p>
+          <p>0 9 0 4 10 4 5 11 5</p>
+          <p>4 12 4 6 13 3 5 14 5</p>
+          <p>5 15 5 6 16 3 7 17 0</p>
+          <p>6 18 3 8 19 2 7 20 0</p>
+          <p>7 21 0 8 22 2 9 23 1</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="g_plAcap06_1Controller">
+      <skin source="#g_plAcap06_1-lib">
+        <bind_shape_matrix>0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="g_plAcap06_1Controller-Joints">
+          <Name_array id="g_plAcap06_1Controller-Joints-array" count="1">
+ Bone1</Name_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAcap06_1Controller-Matrices">
+          <float_array id="g_plAcap06_1Controller-Matrices-array" count="16">
+
+2.540000 0.000000 0.000000 -0.000000 -0.000000 2.540000 0.000000 -0.866639 0.000000 -0.000000 2.540000 -0.262971 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAcap06_1Controller-Weights">
+          <float_array id="g_plAcap06_1Controller-Weights-array" count="11">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1Controller-Weights-array" count="11">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#g_plAcap06_1Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#g_plAcap06_1Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="10">
+          <input semantic="JOINT" offset="0" source="#g_plAcap06_1Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#g_plAcap06_1Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_animations>
+    <animation id="Bone0-anim" name="Bone0">
+      <animation>
+        <source id="Bone0-Matrix-animation-input">
+          <float_array id="Bone0-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone0-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone0-Matrix-animation-output-transform">
+          <float_array id="Bone0-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone0-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone0-Interpolations">
+          <Name_array id="Bone0-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Bone0-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Bone0-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Bone0-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Bone0-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Bone0-Interpolations"/>
+        </sampler>
+        <channel source="#Bone0-Matrix-animation-transform" target="Bone0/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Bone1-anim" name="Bone1">
+      <animation>
+        <source id="Bone1-Matrix-animation-input">
+          <float_array id="Bone1-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone1-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone1-Matrix-animation-output-transform">
+          <float_array id="Bone1-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone1-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone1-Interpolations">
+          <Name_array id="Bone1-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Bone1-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Bone1-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Bone1-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Bone1-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Bone1-Interpolations"/>
+        </sampler>
+        <channel source="#Bone1-Matrix-animation-transform" target="Bone1/matrix"/>
+      </animation>
+    </animation>
+    <animation id="g_plAcap06_1-anim" name="g_plAcap06_1">
+      <animation>
+        <source id="g_plAcap06_1-Matrix-animation-input">
+          <float_array id="g_plAcap06_1-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAcap06_1-Matrix-animation-output-transform">
+          <float_array id="g_plAcap06_1-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAcap06_1-Interpolations">
+          <Name_array id="g_plAcap06_1-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#g_plAcap06_1-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="g_plAcap06_1-Matrix-animation-transform">
+          <input semantic="INPUT" source="#g_plAcap06_1-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#g_plAcap06_1-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#g_plAcap06_1-Interpolations"/>
+        </sampler>
+        <channel source="#g_plAcap06_1-Matrix-animation-transform" target="g_plAcap06_1/matrix"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_lights>
+    <light id="SceneAmbient-lib" name="SceneAmbientMesh">
+      <technique_common>
+        <ambient>
+          <color>0.400000 0.400000 0.400000</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="Bone0" name="Bone0">
+        <matrix sid="matrix">0.393701 0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <node id="Bone1" name="Bone1" type="JOINT">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.866639 0.000000 0.000000 1.000000 0.262971 0.000000 0.000000 0.000000 1.000000</matrix>
+        </node>
+      </node>
+      <node id="g_plAcap06_1" name="g_plAcap06_1">
+        <instance_controller url="#g_plAcap06_1Controller">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_01___Default" target="#_01___Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+

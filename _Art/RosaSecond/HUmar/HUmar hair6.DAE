@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-05-19T21:49:06Z</created>
+    <modified>2011-05-19T21:49:06Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.025400"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__1-image" name="Map__1">
+      <init_from>file://Texture 102.png</init_from>
+    </image>
+    <image id="Map__2-image" name="Map__2">
+      <init_from>file://Texture 102.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material__25" name="Material__25">
+      <instance_effect url="#Material__25-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material__25-fx" name="Material__25">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <texture texture="Map__2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="g_plAhai05_1-lib" name="g_plAhai05_1Mesh">
+      <mesh>
+        <source id="g_plAhai05_1-lib-Position">
+          <float_array id="g_plAhai05_1-lib-Position-array" count="48">
+0.000000 2.214977 1.044330
+0.258414 2.214977 0.929524
+0.000000 2.618029 1.129209
+0.287689 2.284857 0.010646
+0.000000 2.714550 0.062109
+0.000000 1.351036 0.843118
+-0.163639 1.351036 0.787263
+-0.258415 2.214977 0.929524
+-0.163639 1.378198 0.005238
+-0.287689 2.284857 0.010646
+0.000000 1.063879 -1.188367
+0.000000 1.961494 -1.095143
+0.000000 2.516323 -0.920246
+0.163639 1.351036 0.787263
+0.163639 1.378198 0.005238
+0.000000 0.586305 -0.739271
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1-lib-Position-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_1-lib-Normal0">
+          <float_array id="g_plAhai05_1-lib-Normal0-array" count="234">
+0.000001 -0.215883 0.976419
+0.864921 0.066949 0.497423
+0.000000 0.683060 0.730362
+0.864921 0.066949 0.497423
+0.971143 0.229003 -0.066626
+0.000000 0.683060 0.730362
+0.000000 0.683060 0.730362
+0.971143 0.229003 -0.066626
+0.000000 0.999096 -0.042513
+0.000000 -0.203491 0.979077
+0.000000 -0.203491 0.979077
+-0.813006 -0.180350 0.553620
+0.000000 -0.203491 0.979077
+-0.864921 0.066949 0.497423
+-0.813006 -0.180350 0.553620
+-0.813006 -0.180350 0.553620
+-0.864921 0.066949 0.497423
+-0.990443 -0.125337 -0.057557
+-0.864921 0.066949 0.497423
+-0.971143 0.229003 -0.066627
+-0.990443 -0.125337 -0.057557
+-0.990443 -0.125337 -0.057557
+-0.971143 0.229003 -0.066627
+-0.000000 -0.423283 -0.905997
+-0.971143 0.229003 -0.066627
+0.000000 0.175616 -0.984459
+-0.000000 -0.423283 -0.905997
+-0.000000 -0.423283 -0.905997
+0.000000 0.175616 -0.984459
+0.971143 0.229003 -0.066626
+0.000000 0.175616 -0.984459
+-0.000000 0.652098 -0.758135
+0.971143 0.229003 -0.066626
+0.971143 0.229003 -0.066626
+-0.000000 0.652098 -0.758135
+0.000000 0.999096 -0.042513
+-0.000000 0.652098 -0.758135
+-0.971143 0.229003 -0.066627
+0.000000 0.999096 -0.042513
+0.000000 0.999096 -0.042513
+-0.971143 0.229003 -0.066627
+0.000000 0.683060 0.730362
+-0.971143 0.229003 -0.066627
+-0.864921 0.066949 0.497423
+0.000000 0.683060 0.730362
+0.000000 0.683060 0.730362
+-0.864921 0.066949 0.497423
+0.000001 -0.215883 0.976419
+-0.864921 0.066949 0.497423
+0.000000 -0.203491 0.979077
+0.000001 -0.215883 0.976419
+0.000001 -0.215883 0.976419
+0.000000 -0.203491 0.979077
+0.864921 0.066949 0.497423
+0.000000 -0.203491 0.979077
+0.813006 -0.180349 0.553620
+0.864921 0.066949 0.497423
+0.864921 0.066949 0.497423
+0.813006 -0.180349 0.553620
+0.990443 -0.125337 -0.057557
+-0.971143 0.229003 -0.066627
+-0.000000 0.652098 -0.758135
+0.000000 0.175616 -0.984459
+-0.990443 -0.125337 -0.057557
+-0.990443 -0.125337 -0.057557
+0.000000 -0.685053 -0.728493
+-0.990443 -0.125337 -0.057557
+-0.000000 -0.423283 -0.905997
+0.000000 -0.685053 -0.728493
+0.000000 -0.685053 -0.728493
+-0.000000 -0.423283 -0.905997
+0.990443 -0.125337 -0.057557
+-0.000000 -0.423283 -0.905997
+0.971143 0.229003 -0.066626
+0.990443 -0.125337 -0.057557
+0.990443 -0.125337 -0.057557
+0.971143 0.229003 -0.066626
+0.864921 0.066949 0.497423
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1-lib-Normal0-array" count="78" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_1-lib-UV0">
+          <float_array id="g_plAhai05_1-lib-UV0-array" count="24">
+1.968630 0.752941
+1.556860 0.749020
+1.988240 0.980392
+0.984310 0.776471
+1.015690 0.992157
+1.956860 0.121569
+1.572550 0.137255
+0.980390 0.133333
+0.050980 0.396078
+0.043140 0.698039
+0.050980 0.913725
+0.058820 0.023529
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1-lib-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="g_plAhai05_1-lib-Vertex">
+          <input semantic="POSITION" source="#g_plAhai05_1-lib-Position"/>
+        </vertices>
+        <polygons material="Material__25" count="26">
+          <input semantic="VERTEX" offset="0" source="#g_plAhai05_1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#g_plAhai05_1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#g_plAhai05_1-lib-UV0"/>
+          <p>0 0 0 1 1 1 2 2 2</p>
+          <p>1 3 1 3 4 3 2 5 2</p>
+          <p>2 6 2 3 7 3 4 8 4</p>
+          <p>5 9 5 5 10 5 6 11 6</p>
+          <p>5 12 5 7 13 1 6 14 6</p>
+          <p>6 15 6 7 16 1 8 17 7</p>
+          <p>7 18 1 9 19 3 8 20 7</p>
+          <p>8 21 7 9 22 3 10 23 8</p>
+          <p>9 24 3 11 25 9 10 26 8</p>
+          <p>10 27 8 11 28 9 3 29 3</p>
+          <p>11 30 9 12 31 10 3 32 3</p>
+          <p>3 33 3 12 34 10 4 35 4</p>
+          <p>12 36 10 9 37 3 4 38 4</p>
+          <p>4 39 4 9 40 3 2 41 2</p>
+          <p>9 42 3 7 43 1 2 44 2</p>
+          <p>2 45 2 7 46 1 0 47 0</p>
+          <p>7 48 1 5 49 5 0 50 0</p>
+          <p>0 51 0 5 52 5 1 53 1</p>
+          <p>5 54 5 13 55 6 1 56 1</p>
+          <p>1 57 1 13 58 6 14 59 7</p>
+          <p>9 60 3 12 61 10 11 62 9</p>
+          <p>8 63 7 8 64 7 15 65 11</p>
+          <p>8 66 7 10 67 8 15 68 11</p>
+          <p>15 69 11 10 70 8 14 71 7</p>
+          <p>10 72 8 3 73 3 14 74 7</p>
+          <p>14 75 7 3 76 3 1 77 1</p>
+        </polygons>
+      </mesh>
+    </geometry>
+    <geometry id="g_plAhai05_2-lib" name="g_plAhai05_2Mesh">
+      <mesh>
+        <source id="g_plAhai05_2-lib-Position">
+          <float_array id="g_plAhai05_2-lib-Position-array" count="66">
+-0.326108 2.284857 0.010646
+-0.281625 1.378198 0.005238
+-0.185280 1.351036 0.843118
+-0.314852 2.214976 1.110145
+-0.112905 2.844303 1.271809
+-0.113948 2.940824 0.062109
+0.112905 2.844303 1.271809
+0.314851 2.214977 1.110145
+0.326107 2.284857 0.010646
+0.185279 1.351036 0.843118
+0.281625 1.378198 0.005238
+-0.061267 2.761988 -0.676833
+-0.217316 1.999671 -0.984461
+-0.147040 1.083603 -1.094395
+0.000000 0.312075 -0.585702
+0.000000 1.014349 -1.250797
+0.147040 1.083603 -1.094395
+0.000000 1.962446 -1.194938
+0.217316 1.999671 -0.984461
+0.061266 2.761988 -0.676833
+0.113947 2.940824 0.062109
+0.000000 2.643874 -0.957743
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2-lib-Position-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_2-lib-Normal0">
+          <float_array id="g_plAhai05_2-lib-Normal0-array" count="252">
+-0.990012 0.132172 -0.049056
+-0.996284 -0.085329 -0.011719
+-0.993200 -0.105060 0.050168
+-0.993200 -0.105060 0.050168
+-0.994026 0.107809 0.017028
+-0.990012 0.132172 -0.049056
+-0.994026 0.107809 0.017028
+-0.953120 0.301345 0.027452
+-0.990012 0.132172 -0.049056
+-0.990012 0.132172 -0.049056
+-0.953120 0.301345 0.027452
+-0.949056 0.310954 -0.050985
+0.953120 0.301345 0.027452
+0.994026 0.107808 0.017028
+0.990012 0.132173 -0.049056
+0.994026 0.107808 0.017028
+0.993200 -0.105059 0.050168
+0.990012 0.132173 -0.049056
+0.990012 0.132173 -0.049056
+0.993200 -0.105059 0.050168
+0.996284 -0.085329 -0.011719
+-0.949056 0.310954 -0.050985
+-0.933981 0.264233 -0.240543
+-0.990012 0.132172 -0.049056
+-0.933981 0.264233 -0.240543
+-0.872444 0.163538 -0.460539
+-0.990012 0.132172 -0.049056
+-0.990012 0.132172 -0.049056
+-0.872444 0.163538 -0.460539
+-0.996284 -0.085329 -0.011719
+-0.872444 0.163538 -0.460539
+-0.888710 -0.179809 -0.421738
+-0.996284 -0.085329 -0.011719
+-0.996284 -0.085329 -0.011719
+-0.888710 -0.179809 -0.421738
+0.000000 -0.890508 -0.454968
+-0.888710 -0.179809 -0.421738
+0.000000 -0.352045 -0.935983
+0.000000 -0.890508 -0.454968
+0.000000 -0.890508 -0.454968
+0.000000 -0.352045 -0.935983
+0.888710 -0.179809 -0.421738
+0.000000 -0.352045 -0.935983
+0.000000 0.237352 -0.971424
+0.888710 -0.179809 -0.421738
+0.888710 -0.179809 -0.421738
+0.000000 0.237352 -0.971424
+0.872444 0.163539 -0.460539
+0.000000 0.237352 -0.971424
+0.933981 0.264233 -0.240542
+0.872444 0.163539 -0.460539
+0.872444 0.163539 -0.460539
+0.933981 0.264233 -0.240542
+0.990012 0.132173 -0.049056
+0.933981 0.264233 -0.240542
+0.949056 0.310954 -0.050986
+0.990012 0.132173 -0.049056
+0.990012 0.132173 -0.049056
+0.949056 0.310954 -0.050986
+0.953120 0.301345 0.027452
+0.000000 -0.890508 -0.454968
+0.888710 -0.179809 -0.421738
+0.996284 -0.085329 -0.011719
+0.888710 -0.179809 -0.421738
+0.872444 0.163539 -0.460539
+0.996284 -0.085329 -0.011719
+0.996284 -0.085329 -0.011719
+0.872444 0.163539 -0.460539
+0.990012 0.132173 -0.049056
+0.933981 0.264233 -0.240542
+0.000000 0.237352 -0.971424
+0.000002 0.328739 -0.944421
+0.000000 0.237352 -0.971424
+-0.933981 0.264233 -0.240543
+0.000002 0.328739 -0.944421
+0.000000 -0.352045 -0.935983
+-0.888710 -0.179809 -0.421738
+0.000000 0.237352 -0.971424
+-0.888710 -0.179809 -0.421738
+-0.872444 0.163538 -0.460539
+0.000000 0.237352 -0.971424
+0.000000 0.237352 -0.971424
+-0.872444 0.163538 -0.460539
+-0.933981 0.264233 -0.240543
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2-lib-Normal0-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_2-lib-UV0">
+          <float_array id="g_plAhai05_2-lib-UV0-array" count="26">
+1.007840 0.580392
+0.960780 0.894118
+1.917650 0.901961
+1.949020 0.552941
+1.956860 0.015686
+0.898040 0.007843
+0.286270 0.011765
+0.258820 0.600000
+0.305880 0.827451
+0.384310 0.980392
+0.050980 0.854902
+0.054900 0.619608
+0.066670 0.019608
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2-lib-UV0-array" count="13" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="g_plAhai05_2-lib-Vertex">
+          <input semantic="POSITION" source="#g_plAhai05_2-lib-Position"/>
+        </vertices>
+        <polygons material="Material__25" count="28">
+          <input semantic="VERTEX" offset="0" source="#g_plAhai05_2-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#g_plAhai05_2-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#g_plAhai05_2-lib-UV0"/>
+          <p>0 0 0 1 1 1 2 2 2</p>
+          <p>2 3 2 3 4 3 0 5 0</p>
+          <p>3 6 3 4 7 4 0 8 0</p>
+          <p>0 9 0 4 10 4 5 11 5</p>
+          <p>6 12 4 7 13 3 8 14 0</p>
+          <p>7 15 3 9 16 2 8 17 0</p>
+          <p>8 18 0 9 19 2 10 20 1</p>
+          <p>5 21 5 11 22 6 0 23 0</p>
+          <p>11 24 6 12 25 7 0 26 0</p>
+          <p>0 27 0 12 28 7 1 29 1</p>
+          <p>12 30 7 13 31 8 1 32 1</p>
+          <p>1 33 1 13 34 8 14 35 9</p>
+          <p>13 36 8 15 37 10 14 38 9</p>
+          <p>14 39 9 15 40 10 16 41 8</p>
+          <p>15 42 10 17 43 11 16 44 8</p>
+          <p>16 45 8 17 46 11 18 47 7</p>
+          <p>17 48 11 19 49 6 18 50 7</p>
+          <p>18 51 7 19 52 6 8 53 0</p>
+          <p>19 54 6 20 55 5 8 56 0</p>
+          <p>8 57 0 20 58 5 6 59 4</p>
+          <p>14 60 9 16 61 8 10 62 1</p>
+          <p>16 63 8 18 64 7 10 65 1</p>
+          <p>10 66 1 18 67 7 8 68 0</p>
+          <p>19 69 6 17 70 11 21 71 12</p>
+          <p>17 72 11 11 73 6 21 74 12</p>
+          <p>15 75 10 13 76 8 17 77 11</p>
+          <p>13 78 8 12 79 7 17 80 11</p>
+          <p>17 81 11 12 82 7 11 83 6</p>
+        </polygons>
+      </mesh>
+    </geometry>
+    <geometry id="g_plAhai05_3-lib" name="g_plAhai05_3Mesh">
+      <mesh>
+        <source id="g_plAhai05_3-lib-Position">
+          <float_array id="g_plAhai05_3-lib-Position-array" count="12">
+-0.446898 1.167034 -0.912317
+-0.661527 1.220486 -0.532822
+-0.422845 1.368457 -0.938261
+-0.641580 1.428658 -0.555511
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3-lib-Position-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_3-lib-Normal0">
+          <float_array id="g_plAhai05_3-lib-Normal0-array" count="18">
+-0.867343 0.039671 -0.496127
+-0.866329 0.031610 -0.498472
+-0.866950 0.036483 -0.497058
+-0.866329 0.031610 -0.498472
+-0.865928 0.028548 -0.499353
+-0.866950 0.036483 -0.497058
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3-lib-Normal0-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_3-lib-UV0">
+          <float_array id="g_plAhai05_3-lib-UV0-array" count="8">
+0.901960 0.113725
+0.054900 0.113725
+0.901960 0.137255
+0.050980 0.137255
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3-lib-UV0-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="g_plAhai05_3-lib-Vertex">
+          <input semantic="POSITION" source="#g_plAhai05_3-lib-Position"/>
+        </vertices>
+        <polygons material="Material__25" count="2">
+          <input semantic="VERTEX" offset="0" source="#g_plAhai05_3-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#g_plAhai05_3-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#g_plAhai05_3-lib-UV0"/>
+          <p>0 0 0 1 1 1 2 2 2</p>
+          <p>1 3 1 3 4 3 2 5 2</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="g_plAhai05_1Controller">
+      <skin source="#g_plAhai05_1-lib">
+        <bind_shape_matrix>0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="g_plAhai05_1Controller-Joints">
+          <Name_array id="g_plAhai05_1Controller-Joints-array" count="1">
+ Bone1</Name_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_1Controller-Matrices">
+          <float_array id="g_plAhai05_1Controller-Matrices-array" count="16">
+
+2.540000 0.000000 0.000000 0.167710 -0.000000 2.540000 0.000000 -1.626449 0.000000 -0.000000 2.540000 -0.010506 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_1Controller-Weights">
+          <float_array id="g_plAhai05_1Controller-Weights-array" count="17">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1Controller-Weights-array" count="17">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#g_plAhai05_1Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#g_plAhai05_1Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" offset="0" source="#g_plAhai05_1Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#g_plAhai05_1Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 0 16</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="g_plAhai05_2Controller">
+      <skin source="#g_plAhai05_2-lib">
+        <bind_shape_matrix>0.393701 -0.000000 0.000000 -0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="g_plAhai05_2Controller-Joints">
+          <Name_array id="g_plAhai05_2Controller-Joints-array" count="1">
+ Bone1</Name_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_2Controller-Matrices">
+          <float_array id="g_plAhai05_2Controller-Matrices-array" count="16">
+
+2.540000 0.000000 0.000000 0.167710 -0.000000 2.540000 0.000000 -1.626449 0.000000 -0.000000 2.540000 -0.010506 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_2Controller-Weights">
+          <float_array id="g_plAhai05_2Controller-Weights-array" count="23">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2Controller-Weights-array" count="23">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#g_plAhai05_2Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#g_plAhai05_2Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="22">
+          <input semantic="JOINT" offset="0" source="#g_plAhai05_2Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#g_plAhai05_2Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0 20 0 21 0 22</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="g_plAhai05_3Controller">
+      <skin source="#g_plAhai05_3-lib">
+        <bind_shape_matrix>0.393701 -0.000000 0.000000 -0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="g_plAhai05_3Controller-Joints">
+          <Name_array id="g_plAhai05_3Controller-Joints-array" count="1">
+ Bone1</Name_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_3Controller-Matrices">
+          <float_array id="g_plAhai05_3Controller-Matrices-array" count="16">
+
+2.540000 0.000000 0.000000 0.167710 -0.000000 2.540000 0.000000 -1.626449 0.000000 -0.000000 2.540000 -0.010506 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_3Controller-Weights">
+          <float_array id="g_plAhai05_3Controller-Weights-array" count="5">
+
+1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3Controller-Weights-array" count="5">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#g_plAhai05_3Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#g_plAhai05_3Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" offset="0" source="#g_plAhai05_3Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#g_plAhai05_3Controller-Weights"/>
+          <vcount>1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_animations>
+    <animation id="Bone0-anim" name="Bone0">
+      <animation>
+        <source id="Bone0-Matrix-animation-input">
+          <float_array id="Bone0-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone0-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone0-Matrix-animation-output-transform">
+          <float_array id="Bone0-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone0-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone0-Interpolations">
+          <Name_array id="Bone0-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Bone0-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Bone0-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Bone0-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Bone0-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Bone0-Interpolations"/>
+        </sampler>
+        <channel source="#Bone0-Matrix-animation-transform" target="Bone0/matrix"/>
+      </animation>
+    </animation>
+    <animation id="Bone1-anim" name="Bone1">
+      <animation>
+        <source id="Bone1-Matrix-animation-input">
+          <float_array id="Bone1-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone1-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone1-Matrix-animation-output-transform">
+          <float_array id="Bone1-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#Bone1-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Bone1-Interpolations">
+          <Name_array id="Bone1-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#Bone1-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Bone1-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Bone1-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#Bone1-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#Bone1-Interpolations"/>
+        </sampler>
+        <channel source="#Bone1-Matrix-animation-transform" target="Bone1/matrix"/>
+      </animation>
+    </animation>
+    <animation id="g_plAhai05_1-anim" name="g_plAhai05_1">
+      <animation>
+        <source id="g_plAhai05_1-Matrix-animation-input">
+          <float_array id="g_plAhai05_1-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_1-Matrix-animation-output-transform">
+          <float_array id="g_plAhai05_1-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_1-Interpolations">
+          <Name_array id="g_plAhai05_1-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_1-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="g_plAhai05_1-Matrix-animation-transform">
+          <input semantic="INPUT" source="#g_plAhai05_1-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#g_plAhai05_1-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#g_plAhai05_1-Interpolations"/>
+        </sampler>
+        <channel source="#g_plAhai05_1-Matrix-animation-transform" target="g_plAhai05_1/matrix"/>
+      </animation>
+    </animation>
+    <animation id="g_plAhai05_2-anim" name="g_plAhai05_2">
+      <animation>
+        <source id="g_plAhai05_2-Matrix-animation-input">
+          <float_array id="g_plAhai05_2-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_2-Matrix-animation-output-transform">
+          <float_array id="g_plAhai05_2-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_2-Interpolations">
+          <Name_array id="g_plAhai05_2-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_2-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="g_plAhai05_2-Matrix-animation-transform">
+          <input semantic="INPUT" source="#g_plAhai05_2-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#g_plAhai05_2-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#g_plAhai05_2-Interpolations"/>
+        </sampler>
+        <channel source="#g_plAhai05_2-Matrix-animation-transform" target="g_plAhai05_2/matrix"/>
+      </animation>
+    </animation>
+    <animation id="g_plAhai05_3-anim" name="g_plAhai05_3">
+      <animation>
+        <source id="g_plAhai05_3-Matrix-animation-input">
+          <float_array id="g_plAhai05_3-Matrix-animation-input-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3-Matrix-animation-input-array" count="0">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_3-Matrix-animation-output-transform">
+          <float_array id="g_plAhai05_3-Matrix-animation-output-transform-array" count="0">
+</float_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3-Matrix-animation-output-transform-array" count="0" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="g_plAhai05_3-Interpolations">
+          <Name_array id="g_plAhai05_3-Interpolations-array" count="0">
+</Name_array>
+          <technique_common>
+            <accessor source="#g_plAhai05_3-Interpolations-array" count="0">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="g_plAhai05_3-Matrix-animation-transform">
+          <input semantic="INPUT" source="#g_plAhai05_3-Matrix-animation-input"/>
+          <input semantic="OUTPUT" source="#g_plAhai05_3-Matrix-animation-output-transform"/>
+          <input semantic="INTERPOLATION" source="#g_plAhai05_3-Interpolations"/>
+        </sampler>
+        <channel source="#g_plAhai05_3-Matrix-animation-transform" target="g_plAhai05_3/matrix"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_lights>
+    <light id="SceneAmbient-lib" name="SceneAmbientMesh">
+      <technique_common>
+        <ambient>
+          <color>0.400000 0.400000 0.400000</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="Bone0" name="Bone0">
+        <matrix sid="matrix">0.393701 0.000000 0.000000 0.000000 0.000000 0.393701 -0.000000 0.000000 0.000000 0.000000 0.393701 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <node id="Bone1" name="Bone1" type="JOINT">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 -0.167710 0.000000 1.000000 0.000000 1.626449 0.000000 0.000000 1.000000 0.010506 0.000000 0.000000 0.000000 1.000000</matrix>
+        </node>
+      </node>
+      <node id="g_plAhai05_1" name="g_plAhai05_1">
+        <instance_controller url="#g_plAhai05_1Controller">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__25" target="#Material__25"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="g_plAhai05_2" name="g_plAhai05_2">
+        <instance_controller url="#g_plAhai05_2Controller">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__25" target="#Material__25"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="g_plAhai05_3" name="g_plAhai05_3">
+        <instance_controller url="#g_plAhai05_3Controller">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__25" target="#Material__25"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+
