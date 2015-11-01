@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 535d470975f5ea94a84580e3da51f29e
-timeCreated: 1446321476
+guid: 607fb484e409ae242a974595549366ea
+timeCreated: 1446366996
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -70,7 +70,7 @@ ModelImporter:
     400060: //RootNode
     400062: SaraBackup02
     4300000: SaraBackup02
-    7400000: SitIdle
+    7400000: SitPointsRight
     9500000: //RootNode
     13700000: SaraBackup02
   materials:
@@ -94,17 +94,17 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: SitIdle
+      name: SitPointsRight
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 100
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
