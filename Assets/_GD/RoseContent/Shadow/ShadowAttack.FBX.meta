@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 26b25892edcc774479bb583cb992efe8
+timeCreated: 1446754279
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip05
+    100002: Bip05 Footsteps
+    100004: Bip05 Head
+    100006: Bip05 L Calf
+    100008: Bip05 L Foot
+    100010: Bip05 L Thigh
+    100012: Bip05 L Toe0
+    100014: Bip05 Neck
+    100016: Bip05 Pelvis
+    100018: Bip05 R Calf
+    100020: Bip05 R Foot
+    100022: Bip05 R Thigh
+    100024: Bip05 R Toe0
+    100026: Bip05 Spine
+    100028: Bip05 Spine1
+    100030: Bip05 Tail
+    100032: Bip05 Tail1
+    100034: //RootNode
+    400000: Bip05
+    400002: Bip05 Footsteps
+    400004: Bip05 Head
+    400006: Bip05 L Calf
+    400008: Bip05 L Foot
+    400010: Bip05 L Thigh
+    400012: Bip05 L Toe0
+    400014: Bip05 Neck
+    400016: Bip05 Pelvis
+    400018: Bip05 R Calf
+    400020: Bip05 R Foot
+    400022: Bip05 R Thigh
+    400024: Bip05 R Toe0
+    400026: Bip05 Spine
+    400028: Bip05 Spine1
+    400030: Bip05 Tail
+    400032: Bip05 Tail1
+    400034: //RootNode
+    7400000: ShadowAttack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ShadowAttack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip05
+        weight: 1
+      - path: Bip05/Bip05 Footsteps
+        weight: 1
+      - path: Bip05/Bip05 Pelvis
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 L Thigh
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 L Thigh/Bip05 L Calf
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 L Thigh/Bip05 L Calf/Bip05 L Foot
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 L Thigh/Bip05 L Calf/Bip05 L Foot/Bip05
+          L Toe0
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 R Thigh
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 R Thigh/Bip05 R Calf
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 R Thigh/Bip05 R Calf/Bip05 R Foot
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 R Thigh/Bip05 R Calf/Bip05 R Foot/Bip05
+          R Toe0
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 Spine1
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 Spine1/Bip05 Neck
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 Spine1/Bip05 Neck/Bip05 Head
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 Tail
+        weight: 1
+      - path: Bip05/Bip05 Pelvis/Bip05 Spine/Bip05 Tail/Bip05 Tail1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
