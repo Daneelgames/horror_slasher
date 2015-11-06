@@ -52,8 +52,8 @@ ModelImporter:
     400042: Cylinder04
     400044: //RootNode
     4300000: Cylinder04
-    7400000: ShadowHurt
-    7400002: ShadowDead
+    7400000: ShadowRecover
+    7400002: ShadowHurt
     9500000: //RootNode
     13700000: Cylinder04
   materials:
@@ -77,16 +77,16 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: ShadowHurt
+      name: ShadowRecover
       takeName: Take 001
-      firstFrame: 0
+      firstFrame: 30
       lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -154,7 +154,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: ShadowDead
+      name: ShadowHurt
       takeName: Take 001
       firstFrame: 0
       lastFrame: 31
