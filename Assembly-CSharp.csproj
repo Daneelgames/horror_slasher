@@ -120,6 +120,9 @@
      <Compile Include="Assets\PlayMaker Animator\Scripts\PlayMakerAnimatorIKProxy.cs" />
      <Compile Include="Assets\PlayMaker Animator\Scripts\PlayMakerAnimatorMoveProxy.cs" />
      <Compile Include="Assets\PlayMaker Animator\Scripts\PlayMakerAnimatorStateSynchronization.cs" />
+     <Compile Include="Assets\PlayMaker Custom Actions\Audio\PlayAudioAdvance.cs" />
+     <Compile Include="Assets\PlayMaker Custom Actions\AudioMixer\AudioMixerSetFloatValue.cs" />
+     <Compile Include="Assets\PlayMaker Custom Actions\AudioMixer\AudioMixerSetMultiFloatValues.cs" />
      <Compile Include="Assets\PlayMaker Custom Actions\RectTransform\RectTransformContainsScreenPoint.cs" />
      <Compile Include="Assets\PlayMaker Custom Actions\RectTransform\RectTransformFlipLayoutAxes.cs" />
      <Compile Include="Assets\PlayMaker Custom Actions\RectTransform\RectTransformGetAnchorMax.cs" />
